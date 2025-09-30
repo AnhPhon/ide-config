@@ -1,0 +1,103 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "vscode-icons",
+  "dart.flutterSdkPaths": [".fvm/flutter_sdk"],
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [100],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": true
+  },
+  "files.autoSave": "afterDelay",
+  "dart.openDevTools": "flutter",
+  "editor.maxTokenizationLineLength": 200,
+  "cSpell.userWords": [
+    "audioplayers",
+    "brevo",
+    "categorys",
+    "currentdistrict",
+    "easyloading",
+    "Getx",
+    "heymatch",
+    "Khác",
+    "Mappr",
+    "redislabs",
+    "screenutil",
+    "unfocus",
+    "webp"
+  ],
+  "editor.minimap.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "git.autofetch": true,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "window.commandCenter": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.linkedEditing": true,
+  "cmake.configureOnOpen": true,
+  "diffEditor.maxComputationTime": 0,
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.fontSize": 11,
+  "application.shellEnvironmentResolutionTimeout": 20,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "dart.lineLength": 100,
+  "gitProjectManager.baseProjectsFolders": [
+    "/Users/techmind/Documents",
+    "/Users/techmind/Downloads"
+  ],
+  "gitProjectManager.storeRepositoriesBetweenSessions": true,
+  "gitProjectManager.ignoredFolders": [
+    "node_modules",
+    "build",
+    "dist",
+    ".dart_tool",
+    ".fvm"
+  ],
+  "gitProjectManager.maxDepthRecursion": 6,
+  "gitProjectManager.checkRemoteOrigin": false,
+  "window.zoomLevel": -1,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+}

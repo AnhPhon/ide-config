@@ -1,0 +1,41 @@
+# Install NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# Global Pub Flutter
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# Install FVM.
+alias flutter="fvm flutter"
+alias dart="fvm dart"
+alias pub="fvm flutter pub"
+export PATH="$HOME/fvm/default/bin:$PATH"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/techmind/.dart-cli-completion/zsh-config.zsh ]] && . /Users/techmind/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+# Install Java 17
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export PATH="$JAVA_HOME/bin:$PATH"
+export CPPFLAGS="-I$JAVA_HOME/include"
+
+# Set Java Home
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
+export PATH="$JAVA_HOME/bin:$PATH"
+
+# Android SDK
+export ANDROID_HOME="/Users/techmind/Library/Android/sdk"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
+
+# Install Ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+
+# Ngork
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
